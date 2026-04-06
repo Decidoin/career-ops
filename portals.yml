@@ -1,0 +1,170 @@
+# Portal Scanner Configuration
+# Companies and search queries for /career-ops scan
+
+# Target role keywords
+title_filter:
+  positive:
+    - "mechanism design"
+    - "governance"
+    - "incentive"
+    - "protocol"
+    - "research"
+    - "economist"
+    - "coordination"
+    - "agent"
+    - "head of"
+    - "director"
+    - "principal"
+    - "founding"
+    - "VP"
+  negative:
+    - "intern"
+    - "junior"
+    - "associate"
+    - "analyst"
+    - "support"
+    - "marketing"
+    - "sales"
+    - "recruiter"
+
+# Companies to scan
+companies:
+  # AI Agent Infrastructure
+  - name: "Anthropic"
+    careers_url: "https://www.anthropic.com/careers"
+    ats: "ashby"
+    priority: high
+  - name: "OpenAI"
+    careers_url: "https://openai.com/careers"
+    priority: high
+  - name: "DeepMind"
+    careers_url: "https://deepmind.google/about/careers/"
+    priority: high
+  - name: "Cohere"
+    careers_url: "https://cohere.com/careers"
+    priority: medium
+  - name: "Mistral"
+    careers_url: "https://mistral.ai/careers"
+    priority: medium
+
+  # Multi-Agent / Coordination
+  - name: "Olas (Autonolas)"
+    careers_url: "https://olas.network"
+    priority: high
+    notes: "Autonomous agent services, directly in the AI agent governance space"
+  - name: "Fetch.ai"
+    careers_url: "https://fetch.ai/careers"
+    priority: high
+    notes: "AI agent economy"
+  - name: "SingularityNET"
+    careers_url: "https://singularitynet.io/careers"
+    priority: medium
+  - name: "NEAR Protocol"
+    careers_url: "https://careers.near.org"
+    priority: medium
+    notes: "AI + blockchain convergence, chain abstraction"
+
+  # Mechanism Design / Marketplace
+  - name: "Flashbots"
+    careers_url: "https://www.flashbots.net/careers"
+    ats: "ashby"
+    priority: high
+    notes: "MEV, mechanism design, auction theory — strong fit"
+  - name: "a]16z crypto"
+    careers_url: "https://a16zcrypto.com/careers"
+    priority: medium
+    notes: "Research roles in mechanism design"
+  - name: "Paradigm"
+    careers_url: "https://www.paradigm.xyz/opportunities"
+    priority: medium
+  - name: "Uniswap Labs"
+    careers_url: "https://boards.greenhouse.io/uniswaplabs"
+    ats: "greenhouse"
+    priority: medium
+    notes: "Protocol design, mechanism research"
+
+  # AI Safety / Governance (Applied)
+  - name: "Center for AI Safety"
+    careers_url: "https://www.safe.ai/careers"
+    priority: medium
+  - name: "Alignment Research Center (ARC)"
+    careers_url: "https://www.alignment.org"
+    priority: medium
+  - name: "Institute for Advanced Study"
+    careers_url: "https://www.ias.edu"
+    priority: low
+    notes: "Research fellowships"
+
+  # Protocol / Governance Teams
+  - name: "Ethereum Foundation"
+    careers_url: "https://ethereum.org/en/about/#open-jobs"
+    priority: medium
+  - name: "Optimism (OP Labs)"
+    careers_url: "https://boards.greenhouse.io/oplabs"
+    ats: "greenhouse"
+    priority: medium
+    notes: "Governance design, RetroPGF mechanism"
+  - name: "Arbitrum (Offchain Labs)"
+    careers_url: "https://www.offchainlabs.com/careers"
+    priority: medium
+  - name: "Celestia"
+    careers_url: "https://celestia.org/careers"
+    priority: low
+  - name: "EigenLayer (Eigen Labs)"
+    careers_url: "https://www.eigenlayer.xyz/careers"
+    priority: medium
+    notes: "Restaking economics, protocol design"
+
+  # AI Companies with Governance Needs
+  - name: "Hugging Face"
+    careers_url: "https://huggingface.co/jobs"
+    priority: medium
+    notes: "Open-source AI governance, community coordination"
+  - name: "Stability AI"
+    careers_url: "https://stability.ai/careers"
+    priority: low
+  - name: "Runway"
+    careers_url: "https://runwayml.com/careers"
+    priority: low
+
+  # Consulting / Research Firms
+  - name: "Gauntlet"
+    careers_url: "https://www.gauntlet.xyz/careers"
+    priority: high
+    notes: "Protocol economics, risk, simulation — very strong fit"
+  - name: "Delphi Digital"
+    careers_url: "https://delphidigital.io/careers"
+    priority: medium
+  - name: "Block Science"
+    careers_url: "https://block.science"
+    priority: high
+    notes: "cadCAD, complex systems, mechanism design consulting"
+
+# Search queries for job boards
+search_queries:
+  - "mechanism design AI agent"
+  - "head of governance protocol"
+  - "AI agent coordination researcher"
+  - "incentive design economist"
+  - "multi-agent systems governance"
+  - "protocol economist"
+  - "head of research mechanism design"
+  - "AI governance policy lead"
+  - "founding team AI infrastructure"
+  - "director research cryptoeconomics"
+  - "principal researcher game theory"
+
+# Job board URLs to search
+job_boards:
+  - name: "Ashby"
+    base_url: "https://jobs.ashbyhq.com"
+  - name: "Greenhouse"
+    base_url: "https://boards.greenhouse.io"
+  - name: "Lever"
+    base_url: "https://jobs.lever.co"
+  - name: "Wellfound"
+    base_url: "https://wellfound.com/jobs"
+  - name: "Crypto Jobs List"
+    base_url: "https://cryptojobslist.com"
+  - name: "Web3 Career"
+    base_url: "https://web3.career"

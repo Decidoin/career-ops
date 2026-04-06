@@ -1,0 +1,13 @@
+{
+  "name": "career-ops",
+  "version": "1.0.0",
+  "description": "AI-powered opportunity pipeline built on Claude Code",
+  "type": "module",
+  "scripts": {
+    "pdf": "node generate-pdf.mjs",
+    "postinstall": "npx playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.45.0"
+  }
+}

@@ -1,0 +1,96 @@
+# Career-Ops Profile Configuration
+# Edit this file with your details
+
+name: "Tanisha Katara"
+preferred_name: "Taani"
+email: "tanisha.bk@gmail.com"
+phone: "" # not exposed
+location: "Dubai, UAE"
+timezone: "Asia/Dubai (GMT+4)"
+linkedin: "https://www.linkedin.com/in/tanishakatara/"
+website: "https://www.tanishakatara.com"
+github: "" # Add if applicable
+
+# What you're looking for
+targets:
+  roles:
+    - "Head of Mechanism Design"
+    - "Head of AI Governance"
+    - "Principal Researcher — Coordination/Incentives"
+    - "VP Protocol / Governance"
+    - "Founding team — AI agent infrastructure"
+    - "Director of Research"
+  
+  archetypes:
+    primary: ["MechDesign", "AIGov"]
+    secondary: ["ResearchLead", "FoundingRole"]
+    open_to: ["InfraLead", "StratConsult"]
+  
+  industries:
+    priority:
+      - "AI agent infrastructure"
+      - "Multi-agent systems / coordination"
+      - "Mechanism design / auction platforms"
+      - "AI safety (applied, not pure alignment)"
+      - "DeFi / crypto protocols with AI ambitions"
+    open_to:
+      - "Marketplace / platform economics"
+      - "Autonomous systems governance"
+      - "Protocol engineering"
+  
+  company_stage:
+    preferred: ["Series A", "Series B", "Growth"]
+    open_to: ["Pre-seed (founding role only)", "Public (if right team)"]
+
+# Compensation
+compensation:
+  floor: 300000  # USD, annual total comp minimum
+  target: 350000
+  stretch: 450000
+  currency: "USD"
+  notes: "Floor is non-negotiable. Equity can bridge gap only if liquid within 2 years."
+
+# Location preferences
+location_preferences:
+  remote_first: true
+  base: "Dubai, UAE"
+  willing_to_relocate: ["US (with O-1A visa support)"]
+  travel_tolerance: "Up to 25% — conferences, team offsites"
+  no_go: ["Full-time onsite outside Dubai without relocation package"]
+
+# Visa / Legal
+visa:
+  current_status: "UAE resident, no US work authorization"
+  pending: "O-1A extraordinary ability petition (filing April 2026)"
+  petitioning_entity: "KCG Consulting LLC (Delaware)"
+  managed_by: "Bay Immigration Law"
+  notes: "US employer as sponsor would strengthen case. Role generating publications/media is a plus."
+
+# Pivot narrative
+pivot:
+  from: "Blockchain governance & cryptoeconomics consulting"
+  to: "AI agent governance, mechanism design for autonomous systems"
+  key_message: >
+    The coordination problems I solved for blockchain protocols — validator incentives,
+    governance attack vectors, multi-stakeholder consensus — are the exact same problems
+    emerging in multi-agent AI systems. I'm not pivoting away from my expertise;
+    the field is pivoting toward me.
+  proof_points:
+    - "Designed validator admission scoring (PIP-39) and nomination algorithms (AIP-4) — direct mechanism design"
+    - "Applied Gini coefficient analysis to stake distribution — the same inequality metrics apply to AI resource allocation"
+    - "Facilitated contentious protocol governance debates (FIP-100, veFIL) — multi-agent coordination in practice"
+    - "Co-authored Avail Fusion whitepaper on unified cryptoeconomic security — multi-asset consensus = multi-agent consensus"
+    - "Research on Coasean Singularity paper connecting AI agents to market design frameworks"
+
+# Scoring weights (must sum to 100)
+scoring_weights:
+  pivot_alignment: 20
+  compensation: 15
+  o1a_impact: 12
+  role_seniority: 10
+  team_and_people: 10
+  scope_of_impact: 10
+  research_output: 8
+  company_stage: 5
+  location_remote: 5
+  exit_optionality: 5
