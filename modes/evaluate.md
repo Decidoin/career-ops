@@ -5,11 +5,11 @@ Triggered by: `/career-ops {JD or URL}` or pasting a job description/URL directl
 ## Workflow
 
 1. **Read** `modes/_shared.md`, `cv.md`, `config/profile.yml`
-2. **Parse** the job description — extract: company, role title, level, team, responsibilities, requirements, comp (if stated), location
+2. **Parse** the job description — extract: company, role title, seniority level, team, responsibilities, requirements, comp (if stated), location
 3. **Auto-disqualify check** — if any trigger hits, log to tracker as `🚫 Declined` with reason, stop
-4. **Classify archetype** — pick from MECH, AIGOV, INFRA, RSCH, STRAT, FOUND
-5. **Score** all 10 dimensions per the scoring guides
-6. **Generate report** in the format specified in CLAUDE.md
+4. **Classify archetype** — pick from: `DATA`, `PROD`, `BIZOPS`, `FOUND`, `STRAT`, `PM`
+5. **Score** all 7 dimensions per the scoring guides in `modes/_shared.md`
+6. **Generate report** in the format specified in `CLAUDE.md`
 7. **Save report** to `reports/{###}-{company-slug}-{YYYY-MM-DD}.md`
 8. **Update tracker** `data/applications.md` with new row
 9. **Verdict** — clear recommendation: Apply, Skip, or Conditional (with what conditions)
@@ -20,11 +20,11 @@ Check `reports/` for the highest existing number, increment by 1. Format: `001`,
 
 ## Compensation Research
 
-When comp isn't stated in the JD:
-- Search for the company + role on levels.fyi, Glassdoor, Blind
-- Check if the company has public salary bands
-- Factor in location adjustments (remote, Dubai, US)
-- Compare to $300K floor
+When comp is not stated in the JD:
+- Search for the company + role on AmbitionBox, Glassdoor India, LinkedIn Salary Insights
+- Check if the company has public salary bands or Levels.fyi entries
+- For Dubai roles: convert AED to INR (1 AED ≈ ₹23 INR) and compare to ₹8L floor
+- If comp is completely unverifiable, note it and score Compensation at 5/10
 
 ## CV Match Analysis
 
@@ -32,27 +32,27 @@ For each requirement in the JD:
 1. Find the matching evidence in `cv.md`
 2. If no direct match, find the closest transferable experience
 3. Flag genuine gaps honestly
-4. Identify which projects to lead with for THIS role
+4. Identify which roles/projects to lead with for THIS specific role
 
-## Pivot Narrative
+## Role Narrative
 
-Select the best narrative template from `_shared.md` and customize:
-- Map specific KCG projects to specific role requirements
-- Identify the 1-2 "bridge" stories that make the blockchain→AI connection concrete
-- Note what to emphasize vs. downplay in the interview
+Select the best narrative template from `modes/_shared.md` and customize it:
+- Map specific experience bullets to specific JD requirements
+- Identify the 1–2 stories that make the strongest case for THIS role
+- Note what to emphasize vs. minimize in the application and interview
 
 ## Interview Prep
 
-Generate 3-5 STAR+R stories relevant to THIS role's likely questions. Add new stories to `interview-prep/story-bank.md` if they don't already exist.
+Generate 3–5 STAR+R stories from `interview-prep/story-bank.md` that are most relevant to this role's likely questions. If a story is missing, draft it and add it to the story bank.
 
 ## Output
 
 After generating the report, summarize to the user:
 ```
 📊 {Company} — {Role}
-Archetype: {ARCH}
+Archetype: {CODE}
 Grade: {X} ({score}/100)
-Verdict: {recommendation}
+Verdict: {Apply / Skip / Conditional}
 Key strength: {top scoring dimension}
 Key gap: {lowest scoring dimension}
 Report saved: reports/{filename}
