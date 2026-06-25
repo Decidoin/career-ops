@@ -1,87 +1,87 @@
-# Interview Story Bank
+# STAR+R Story Bank — Santosh Govardhan
 
-Accumulated STAR+R stories across evaluations. Each story is tagged for quick matching to interview questions.
-
----
-
-### FIP-100 & The wjmelements Debate
-**Tags:** [technical-disagreement, governance, mechanism-design, staying-rigorous]
-**Best for:** "Tell me about a time you disagreed with a technical decision" / "How do you handle conflict?"
-
-**Situation:** During Filecoin's FIP #1233 discussion on Premium Percentile Ratio base fee mechanism, protocol researcher wjmelements proposed a gas lanes approach. I had concerns about the TQ/duplication tradeoffs.
-**Task:** Engage constructively in a live technical debate while maintaining protocol integrity and not letting the conversation devolve into politics.
-**Action:** Prepared detailed analysis of the gas lane mechanism, identified specific failure modes (transaction queue manipulation, duplication vectors), presented counter-evidence in the Core Devs forum with data rather than opinion.
-**Result:** The debate led to a refined proposal that addressed the duplication concerns. The process demonstrated that rigorous technical challenge improves protocol design.
-**Reflection:** I learned that the best way to win a technical argument is to make it not about winning — present the failure modes, let the data speak, and be genuinely open to being wrong.
+Stories accumulated across evaluations. Add new stories via `/career-ops prep`.
 
 ---
 
-### Polygon Governance Hub — Building 0→1
-**Tags:** [0-to-1, governance-design, infrastructure, stakeholder-management]
-**Best for:** "Tell me about building something from scratch" / "Biggest impact project"
+### D1 Retention Analysis — CycleBae
+**Tags:** [product-analytics, retention, experimentation, stakeholder-influence]
+**Best for:** "Tell me about a time you influenced a product decision with data"
 
-**Situation:** Polygon had no formal governance infrastructure. Token holders, validators, and core team had no structured way to propose, debate, or ratify protocol changes.
-**Task:** Design and build the governance framework and infrastructure from zero — proposals, voting, validator admission, signaling mechanisms.
-**Action:** Designed PIP-39 (validator admission scoring algorithm) and PIP-50 (variable tokenholder signaling). Built the Governance Hub as the interface layer. Managed stakeholder alignment across a $5B+ protocol.
-**Result:** Governance Hub launched and adopted. PIPs became the standard mechanism for protocol changes. The scoring algorithm I designed is still used for validator onboarding.
-**Reflection:** The hardest part wasn't the mechanism design — it was getting stakeholders with conflicting incentives to agree on the rules of the game before playing it.
-
----
-
-### Avail Fusion Whitepaper — Co-Authoring Research
-**Tags:** [research, collaboration, publication, cryptoeconomics]
-**Best for:** "Tell me about a research contribution" / "How do you collaborate on technical work?"
-
-**Situation:** Avail needed a whitepaper articulating their unified cryptoeconomic security model — how multiple asset types could contribute to consensus security simultaneously.
-**Task:** Co-author the whitepaper with Wenxuan Deng and Prabal Banerjee, translating complex multi-asset consensus ideas into a rigorous but readable academic paper.
-**Action:** Contributed the governance and economic modeling sections, applied frameworks from political economy and game theory, iterated through multiple drafts and peer review.
-**Result:** Paper accepted to TERSE 2026 (though later reversed due to citation issues I subsequently identified and fixed — 9 of 19 citations had errors including one fabricated reference).
-**Reflection:** The citation audit taught me that rigor means checking everything, even collaborators' contributions. I now audit every reference in any paper I touch.
+**Situation:** CycleBae needed to understand what drove users who came back on Day 1 vs. those who didn't.
+**Task:** Identify the behavioral signals most associated with D1 retention to inform experiment prioritization.
+**Action:** Ran cohort analysis segmented by onboarding actions, identified 2–3 specific behaviors with the strongest correlation to D1 retention, and presented findings to Product with recommended experiment hypotheses.
+**Result:** Findings directly shaped the experimentation roadmap for onboarding.
+**Reflection:** Would have moved faster if I'd aligned on the metric definition upfront with Product before diving into the analysis.
 
 ---
 
-### NV27 Golden Week — Cross-Team Coordination
-**Tags:** [coordination, cross-functional, protocol-upgrade, leadership]
-**Best for:** "How do you coordinate across teams?" / "Managing complexity"
+### Rental-to-Buyback Pilot — Furlenco
+**Tags:** [business-analysis, ops, revenue, pilot, margins]
+**Best for:** "Describe a project where you drove business impact" / "Tell me about improving a metric"
 
-**Situation:** Filecoin's NV27 network upgrade required coordination across 5 independent implementation teams, each with their own codebase, timeline, and priorities.
-**Task:** Facilitate the "Golden Week" coordination process — ensure all teams were aligned on spec, timeline, testing, and rollout sequence.
-**Action:** Created shared coordination materials, facilitated daily syncs, identified blocking issues early, mediated prioritization conflicts between teams.
-**Result:** NV27 shipped on schedule. No major incidents during rollout.
-**Reflection:** Coordination across autonomous teams is governance in miniature. You can't command — you can only create clarity and alignment structures that make coordination the path of least resistance.
-
----
-
-### Mina Treasury Review — Uncomfortable Truths
-**Tags:** [governance-audit, stakeholder-management, honesty, risk-assessment]
-**Best for:** "Tell me about delivering difficult feedback" / "How do you handle sensitive findings?"
-
-**Situation:** Mina Foundation engaged KCG to review their treasury governance. During the review, I identified significant attack vectors and governance weaknesses.
-**Task:** Deliver honest findings to a client who was paying me — including findings they might not want to hear.
-**Action:** Documented attack vectors systematically, mapped governance failure modes, delivered phased decentralization recommendations with clear prioritization. Led with the risks, not with reassurance.
-**Result:** Mina Foundation accepted the findings and began implementing the phased recommendations.
-**Reflection:** Clients hire me for the truth, not for comfort. Every consulting engagement I've had has renewed because I tell them what they need to hear, not what they want to hear. That's the entire value proposition.
+**Situation:** Furlenco's refurbishment costs were eating into margins on returned rental items.
+**Task:** Find a way to reduce refurbishment volume and improve margins on the returns pipeline.
+**Action:** Analyzed return patterns, customer CLTV, and item condition data. Designed a rental-to-buyback offer targeting customers most likely to convert — letting customers buy the item they were renting at a discount instead of returning it.
+**Result:** Cut refurbishment costs, improved margins by 10%, and created the resale category from scratch.
+**Reflection:** The data was clear early but stakeholder alignment took longer than expected. Now I lead with the business case upfront.
 
 ---
 
-### CoW DAO Rejection — Learning from the Process
-**Tags:** [rejection, self-assessment, growth, interview-process]
-**Best for:** "Tell me about a failure" / "What have you learned from rejection?"
+### Churn & CLTV Modelling — Furlenco
+**Tags:** [churn, CLTV, segmentation, retention, Python, SQL]
+**Best for:** "Have you built predictive models?" / "How do you approach customer retention?"
 
-**Situation:** Went through four rounds of interviews at CoW DAO including with CEO Anna George and researcher Felix. Reached the consolidation stage.
-**Task:** Perform well across all four rounds and secure the role.
-**Action:** Prepared thoroughly, demonstrated research depth and technical capability. Received positive signals on research quality.
-**Result:** Rejected. Post-mortem identified likely factors: leadership signal inconsistency across rounds, no direct reports experience.
-**Reflection:** The rejection clarified something important — I need to either get direct management experience or target roles where "leading through design" (shaping systems rather than managing people) is the leadership model. It also validated that my research quality and technical depth are competitive.
+**Situation:** Furlenco wanted to shift from reactive to proactive retention — intervening before customers churned.
+**Task:** Build models to segment users by churn risk and lifetime value so retention efforts could be targeted.
+**Action:** Built churn and CLTV models using SQL and Python, segmented the user base, and worked with marketing to design targeted campaigns for high-CLTV / high-churn-risk users.
+**Result:** Engagement improved by 15% for targeted segments.
+**Reflection:** The model was solid but the feedback loop from campaigns back into the model took time to establish. I'd build that in from day one next time.
 
 ---
 
-### Conquista PR Termination — Professional Conflict Resolution
-**Tags:** [vendor-management, conflict, deliverables, communication]
-**Best for:** "How do you handle underperformance?" / "Difficult professional conversations"
+### Self-Service Analytics at Scale — Furlenco
+**Tags:** [BI, dashboards, Power BI, QuickSight, stakeholder-enablement]
+**Best for:** "Tell me about building dashboards" / "How do you make data accessible to non-technical stakeholders?"
 
-**Situation:** Engaged Conquista PR (founder: Laura Estefania) for a one-month PR engagement. After the month, conducted a deliverables audit.
-**Task:** Assess whether the engagement delivered value and handle the outcome professionally.
-**Action:** Documented a detailed line-by-line deliverables audit showing zero fully satisfied line items. Drafted a response in Adam Grant's communication style — precise, evidence-based, non-aggressive. Terminated the engagement.
-**Result:** Clean termination. No burned bridges, no drama, just clear evidence and a professional exit.
-**Reflection:** The audit framework I used — comparing promised vs. delivered line by line — is something I now apply to any vendor or contractor relationship. Precision in assessment prevents emotional escalation.
+**Situation:** Furlenco's business teams were dependent on the data team for every report. The bottleneck was slowing decision-making.
+**Task:** Build scalable self-service analytics infrastructure that let business teams answer their own questions.
+**Action:** Defined KPIs with stakeholders, built Power BI and Amazon QuickSight dashboards covering acquisition, retention, operations, and revenue. Trained business users on navigation and interpretation.
+**Result:** Business teams could self-serve insights. Reduced ad-hoc data requests and accelerated decision-making.
+**Reflection:** Getting the KPI definitions right upfront — agreed on by all stakeholders before building — was the most important step. Skipping that creates dashboards nobody trusts.
+
+---
+
+### DeFi Protocol Analytics Database — Moonshots Studio, Dubai
+**Tags:** [data-engineering, stakeholder, product-metrics, consulting, Power BI]
+**Best for:** "Tell me about building something from scratch" / "Working with non-technical stakeholders"
+
+**Situation:** Moonshots Studio needed to pitch data-driven targeting to blockchain protocol clients but had no structured analytics infrastructure.
+**Task:** Build an analytics-ready database covering the DeFi landscape that could power client targeting and outreach.
+**Action:** Built and maintained a database covering 50+ DeFi protocols. Designed Power BI dashboards and a performance scoring model on top of it for stakeholder self-service.
+**Result:** Improved client outreach effectiveness by 10%. Stakeholders could pull insights without waiting on a data request.
+**Reflection:** Starting with a clear schema and field definitions upfront saved significant rework later.
+
+---
+
+### LLM-Powered BI — Research Project, Clark University
+**Tags:** [AI, LLM, SQL, RAG, LangChain, research, publication]
+**Best for:** "Tell me about a technical project" / "What's your experience with AI/ML?"
+
+**Situation:** Business users struggle to query databases without SQL knowledge. Wanted to bridge that gap using LLMs.
+**Task:** Build a system that converts natural language business questions into accurate, validated SQL queries.
+**Action:** Built a pipeline using Python, RAG, LangChain, FAISS for schema retrieval, and Groq's LLaMA 3.3. Added query validation and a self-healing loop for error correction. Presented at Clark University's Multidisciplinary Conference 2025.
+**Result:** System correctly handles dynamic SQL generation across multiple schemas. Published and presented at a US academic conference.
+**Reflection:** The self-healing loop was the hardest part — getting the model to identify its own SQL errors and correct them without going in circles.
+
+---
+
+### 70% CRM Go-Live Reduction — Urban Piper
+**Tags:** [operations, onboarding, process-improvement, SaaS]
+**Best for:** "Tell me about improving an operational process" / "Working with clients"
+
+**Situation:** Urban Piper's QSR/F&B client onboarding onto their CRM was slow, manual, and inconsistent across clients.
+**Task:** Streamline the onboarding process to reduce time-to-go-live.
+**Action:** Mapped the existing onboarding steps, identified the bottlenecks, standardized setup sequences and training materials, reduced handoffs between teams.
+**Result:** Cut CRM go-live time by 70% across 5+ clients.
+**Reflection:** Most process improvements come from removing steps, not optimizing them. The biggest gains were from eliminating redundant handoffs entirely.

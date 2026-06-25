@@ -2,36 +2,43 @@
 
 ## Who This Is For
 
-This system belongs to **Tanisha Katara** (Taani) — Founder & CEO of KCG Consulting LLC, blockchain governance and cryptoeconomics consultant, currently pivoting toward AI agent governance and mechanism design. Based in Dubai, pursuing an O-1A extraordinary ability visa.
+This system belongs to **Santosh Govardhan** — Data Analyst (Product & Business Analytics) with 7 years of experience across product analytics, strategy & insights, and data consulting. Based in Bangalore. Masters in Data Analytics from Clark University, USA (GPA 3.9). Published researcher (LLM-powered BI, Clark Conference 2025).
 
-This is NOT a spray-and-pray job search tool. Taani's career operates on two parallel tracks:
-1. **Employed roles** — senior/leadership positions in AI agent infrastructure, mechanism design, governance
-2. **Consulting engagements** — KCG Consulting contracts in the same space
-
-Both tracks feed the same pipeline. Every opportunity gets evaluated against the same scoring dimensions.
+This is a focused, high-signal job search tool. Santosh is not spray-and-pray. Every role gets evaluated against his profile before he applies.
 
 ## Core Constraints (Non-Negotiable)
 
-- **$300K annual minimum** — total comp floor, no exceptions
-- **O-1A compatibility** — role must support or not conflict with the visa petition (US employer preferred, remote-first acceptable)
-- **Pivot alignment** — opportunity must advance the move from blockchain governance → AI agent governance/mechanism design
-- **No downgrade** — must be a leadership, principal, or founding-tier role. No "senior analyst" energy.
+- **₹8,00,000 INR annual minimum** — total comp floor, no exceptions
+- **Seniority:** Associate to Senior level only — no intern/fresher/junior roles; no Director/VP unless it's a Founder's Office / Chief of Staff role
+- **Locations:** Bangalore (India) or Dubai (UAE) only — remote-first roles acceptable from anywhere
+- **Role families:** Must fall into one of the 6 target role families below
+
+## Target Role Families
+
+| Code | Family | Examples |
+|------|--------|---------|
+| `DATA` | Data Analyst | Data Analyst, Senior Data Analyst, Analytics Engineer |
+| `PROD` | Product Analyst | Product Analyst, Senior Product Analyst, Growth Analyst |
+| `BIZOPS` | Business / Operations Analyst | Business Analyst, Operations Analyst, Strategy Analyst |
+| `FOUND` | Founder's Office / Chief of Staff | Founder's Office, Chief of Staff, Head of Strategy |
+| `STRAT` | Strategy & Insights | Strategy & Insights, Business Intelligence, Market Analyst |
+| `PM` | Product Management | Associate PM, Product Manager, APM |
 
 ## What is career-ops
 
-AI-powered opportunity pipeline built on Claude Code: evaluation, CV/proposal generation, portal scanning, tracker, interview prep.
+AI-powered opportunity pipeline built on Claude Code: evaluation, CV/PDF generation, portal scanning, tracker, interview prep, outreach drafting, negotiation scripts.
 
 ### Main Files
 
 | File | Function |
 |------|----------|
-| `cv.md` | Master CV in markdown |
+| `cv.md` | Master CV in Markdown |
 | `config/profile.yml` | Profile, targets, scoring weights |
 | `data/applications.md` | Application/opportunity tracker |
 | `data/pipeline.md` | Inbox of pending URLs |
 | `portals.yml` | Scanner query and company config |
 | `templates/cv-template.html` | HTML template for PDF CVs |
-| `generate-pdf.mjs` | Puppeteer: HTML → PDF |
+| `generate-pdf.mjs` | Playwright: HTML → PDF |
 | `interview-prep/story-bank.md` | STAR+R stories accumulated across evaluations |
 | `reports/` | Evaluation reports |
 
@@ -40,60 +47,104 @@ AI-powered opportunity pipeline built on Claude Code: evaluation, CV/proposal ge
 ```
 /career-ops                → Show all available commands
 /career-ops {paste a JD}   → Full auto-pipeline (evaluate + PDF + tracker)
-/career-ops scan           → Scan portals for new offers
-/career-ops pdf            → Generate ATS-optimized CV for a specific role
-/career-ops batch          → Batch evaluate multiple offers
+/career-ops scan           → Scan portals for new matching roles
+/career-ops pdf            → Generate tailored CV PDF for a specific role
+/career-ops batch          → Batch evaluate multiple roles
 /career-ops tracker        → View/update application statuses
 /career-ops prep           → Interview prep for a specific role
 /career-ops outreach       → Draft outreach message (LinkedIn/email)
 /career-ops deep           → Deep company/team research
 /career-ops negotiate      → Negotiation scripts and comp analysis
-/career-ops pivot-check    → Score how well an opportunity advances the AI agent pivot
+/career-ops pivot-check    → Quick role-alignment score against Santosh's profile
 ```
 
 ## Archetypes
 
-When evaluating a role, first classify it into one of these archetypes. Each has different scoring emphasis.
+Classify every role into one archetype before scoring:
 
 | Archetype | Description | Examples |
 |-----------|-------------|---------|
-| **MechDesign** | Mechanism design, incentive architecture, tokenomics, auction design | Protocol economist, mechanism designer, incentive architect |
-| **AIGov** | AI agent governance, multi-agent coordination, safety frameworks | AI governance lead, alignment researcher (applied), AI policy |
-| **InfraLead** | Technical leadership over protocol/infrastructure teams | Head of Protocol, VP Engineering (infra), CTO |
-| **ResearchLead** | Applied research leadership — economics, coordination, game theory | Head of Research, Principal Researcher, Chief Scientist |
-| **StratConsult** | Strategy/consulting at protocol or AI companies | Head of Strategy, Chief of Staff, Principal Consultant |
-| **FoundingRole** | Early-stage founding team, 0→1 building | Co-founder, Founding Head of X |
+| **DATA** | BI, reporting, dashboards, ad-hoc analysis | Data Analyst, BI Analyst, Analytics Engineer |
+| **PROD** | Product metrics, funnels, A/B testing, user behavior | Product Analyst, Growth Analyst, Experimentation Analyst |
+| **BIZOPS** | Business strategy, operations, process improvement | Business Analyst, Ops Analyst, Strategy Analyst |
+| **FOUND** | High-leverage generalist in a founder's org | Founder's Office, Chief of Staff, Head of Strategy |
+| **STRAT** | Market intelligence, corporate strategy, insights | Strategy & Insights, Market Analyst, BI Lead |
+| **PM** | Product management with analytics emphasis | Associate PM, PM, APM with data focus |
 
-## Scoring System (A-F, 10 Dimensions)
+## Scoring System (A–F, 7 Dimensions)
 
-Each dimension is scored 0-10, weighted, then mapped to a letter grade.
+Each dimension scored 0–10, weighted, mapped to letter grade.
 
 | # | Dimension | Weight | What It Measures |
 |---|-----------|--------|-----------------|
-| 1 | **Pivot Alignment** | 20% | How directly does this advance the AI agent governance pivot? |
-| 2 | **Compensation** | 15% | Base + equity + benefits vs. $300K floor |
-| 3 | **O-1A Impact** | 12% | Does this strengthen the visa case? US employer, prestige, visibility |
-| 4 | **Role Seniority** | 10% | Leadership scope, title, decision-making authority |
-| 5 | **Team & People** | 10% | Quality of team, who you'd work with, learning potential |
-| 6 | **Scope of Impact** | 10% | Can you shape systems, not just execute? Design authority |
-| 7 | **Research Output** | 8% | Can you publish, speak, build public intellectual capital? |
-| 8 | **Company Stage** | 5% | Startup risk vs. stability, funding, runway |
-| 9 | **Location/Remote** | 5% | Dubai-compatible, remote-first, travel expectations |
-| 10 | **Exit Optionality** | 5% | Does this open doors or narrow them? |
+| 1 | Role Fit | 25% | Matches one of Santosh's 6 target role families |
+| 2 | Skill Match | 20% | Overlap between JD requirements and Santosh's stack |
+| 3 | Seniority Level | 15% | Correct band: Associate to Senior |
+| 4 | Compensation | 15% | Above ₹8L INR annual (or equivalent in AED) |
+| 5 | Location Fit | 10% | Bangalore, Dubai, or remote |
+| 6 | Industry Fit | 10% | Product-led/tech/startup preferred; open to BFSI, consulting |
+| 7 | Growth Potential | 5% | Learning path, scope expansion, promotion track |
 
 ### Grade Mapping
-- **A (85-100):** Apply immediately. Near-perfect alignment.
-- **B (70-84):** Strong fit. Worth pursuing with minor gaps.
-- **C (55-69):** Decent but compromises on 2+ dimensions. Pursue only if nothing better.
-- **D (40-54):** Significant misalignment. Skip unless exceptional team/comp.
+- **A (85–100):** Apply immediately. Strong fit across the board.
+- **B (70–84):** Good fit. Apply with targeted tailoring.
+- **C (55–69):** Partial fit. Apply only if pipeline is thin.
+- **D (40–54):** Weak fit. Skip unless exceptional comp or brand.
 - **F (<40):** Hard pass.
 
-### Auto-Disqualify Triggers
-- Comp clearly below $200K (not even in negotiation range of $300K)
-- "Analyst" or "Associate" level role
-- Pure blockchain/crypto with zero AI angle
-- Requires full-time physical presence outside Dubai with no remote option
-- Role is execution-only with no design/strategy authority
+### Scoring Guides
+
+**Role Fit (25%)**
+- 9–10: Exact match to one of the 6 families; title is identical or near-identical
+- 7–8: Strong overlap; role has a different title but does the same work
+- 5–6: Adjacent — could do it but it's a stretch
+- 3–4: Partial — some analytics but primarily another function
+- 0–2: Unrelated
+
+**Skill Match (20%)**
+
+Santosh's stack: SQL, Python, Power BI, Tableau, Amazon QuickSight, Metabase, Superset, Snowflake, Airbyte, MySQL, Excel, LangChain, RAG, FAISS
+
+- 9–10: JD requires 4+ tools Santosh knows; core stack is an exact match
+- 7–8: JD requires 2–3 tools he knows; rest is learnable
+- 5–6: 1–2 tools match; significant gap but transferable
+- 3–4: Minimal overlap; heavy upskilling required
+- 0–2: No overlap or uses tools Santosh doesn't know
+
+**Seniority Level (15%)**
+- 9–10: Senior Analyst, Senior Associate, Lead Analyst — exact target band
+- 7–8: Associate / Analyst level (no "junior" qualifier)
+- 5–6: Manager track but IC-heavy; borderline senior
+- 3–4: Entry-level signals in the JD despite a mid-level title
+- 0–2: Intern, fresher, junior — auto-disqualify territory
+
+**Compensation (15%)**
+- 9–10: Clearly above ₹15L or equivalent
+- 7–8: ₹10–15L INR range
+- 5–6: ₹8–10L INR — meets floor
+- 3–4: ₹6–8L — below floor but negotiable
+- 0–2: Clearly below ₹6L or undisclosed with bad signals
+
+**Location Fit (10%)**
+- 9–10: Bangalore or Dubai, or fully remote
+- 7–8: Hybrid Bangalore/Dubai
+- 5–6: Relocate-friendly with support
+- 3–4: Other Indian metro (Mumbai/Delhi/Hyderabad) — possible
+- 0–2: Outside India/UAE with no remote option
+
+**Industry Fit (10%)**
+- 9–10: Product-led startup or tech company; direct analytics ownership
+- 7–8: Mid-size tech, BFSI, or consulting with data culture
+- 5–6: Traditional enterprise with growing analytics function
+- 3–4: Industry with limited analytics maturity
+- 0–2: No analytics function or culture
+
+**Growth Potential (5%)**
+- 9–10: Clear path to Lead/Manager; company is scaling fast
+- 7–8: Role has ownership and learning scope
+- 5–6: Stable but limited upside
+- 3–4: Maintenance work, limited growth
+- 0–2: Dead-end or shrinking team
 
 ## Evaluation Report Format
 
@@ -115,8 +166,13 @@ Every evaluation produces a report in `reports/` with this structure:
 ## 2. Scoring Breakdown
 | Dimension | Score | Notes |
 |-----------|-------|-------|
-| Pivot Alignment | X/10 | ... |
-| ... | ... | ... |
+| Role Fit | X/10 | ... |
+| Skill Match | X/10 | ... |
+| Seniority Level | X/10 | ... |
+| Compensation | X/10 | ... |
+| Location Fit | X/10 | ... |
+| Industry Fit | X/10 | ... |
+| Growth Potential | X/10 | ... |
 
 ## 3. CV Match Analysis
 - What in cv.md maps directly to this role
@@ -125,23 +181,18 @@ Every evaluation produces a report in `reports/` with this structure:
 
 ## 4. Compensation Research
 - Market range for this role/level/location
-- How it compares to $300K floor
+- How it compares to ₹8L floor
 - Negotiation leverage points
 
-## 5. Pivot Narrative
-- How to frame the blockchain→AI agent governance story for THIS role
-- Which KCG projects translate directly
-- What to emphasize, what to downplay
+## 5. Role Narrative
+- How to frame Santosh's 7-year background for THIS specific role
+- Which experiences to lead with
+- What to emphasize, what to minimize
 
 ## 6. Interview Prep (STAR+R)
-- 3-5 stories from experience mapped to likely questions
-- Technical depth areas to brush up on
-- Questions to ask THEM (to evaluate fit)
-
-## 7. O-1A Considerations
-- Would this employer sponsor?
-- Does the role generate O-1A evidence (publications, media, critical role)?
-- Conflicts with current petition?
+- 3–5 stories from experience mapped to likely questions
+- Tools/skills to brush up on
+- Questions to ask THEM
 ```
 
 ## CV Generation
@@ -151,75 +202,52 @@ When generating a tailored CV:
 2. Read the evaluation report for match analysis
 3. Reorder, emphasize, and keyword-inject based on the JD
 4. Use `templates/cv-template.html` for layout
-5. Generate PDF via `generate-pdf.mjs`
-6. Save to `output/{company-slug}-cv-{date}.pdf`
+5. **Humanizer pass:** Before generating HTML, strip all AI tell-tale patterns — em dash overuse, rule of three, filler openers ("Leveraging", "Spearheaded", "Passionate about"), passive voice inflation. Output must sound like Santosh wrote it.
+6. Generate HTML with the tailored content
+7. Generate PDF via `generate-pdf.mjs`
+8. Save to `output/{company-slug}-cv-{date}.pdf`
 
 **Design principles:**
 - Clean, single-column, ATS-parseable
 - No photos, no fancy graphics
 - Keywords from JD injected naturally into experience bullets
-- Lead with the pivot narrative, not the full blockchain history
-- Quantify everything: "$X managed," "Y protocols," "Z% improvement"
+- Quantify everything: metrics, percentages, team sizes, tool names
+- Strict 1 page
 
 ## Portal Scanner
 
-Pre-configured companies and search queries in `portals.yml`. Focus areas:
-- AI agent infrastructure companies
-- Mechanism design / auction / marketplace companies
-- Protocol/governance teams with AI ambitions
-- AI safety orgs doing applied coordination work
+Pre-configured companies and search queries in `portals.yml`. Focus:
+- Product-led tech startups and scaleups in Bangalore
+- Consumer internet, fintech, SaaS companies
+- Bangalore MNCs with strong analytics teams
+- Dubai tech + marketplace companies
 
 ## Tracker
 
-`data/applications.md` is the single source of truth. Statuses:
+`data/applications.md` is the single source of truth.
 
 | Status | Meaning |
 |--------|---------|
 | `📋 Evaluating` | In scoring pipeline |
 | `🎯 Target` | High-score, preparing application |
 | `📨 Applied` | Application submitted |
-| `📞 Screening` | Recruiter/phone screen stage |
+| `📞 Screening` | Recruiter/phone screen |
 | `🏗️ Technical` | Technical interview/assessment |
-| `👥 Final` | Final round / leadership interviews |
+| `👥 Final` | Final round |
 | `💰 Offer` | Offer received |
 | `✅ Accepted` | Offer accepted |
 | `❌ Rejected` | They passed |
-| `🚫 Declined` | I passed |
+| `🚫 Declined` | Santosh passed |
 | `⏸️ Paused` | On hold |
 
-## Interview Prep — Story Bank
+## Auto-Disqualify
 
-`interview-prep/story-bank.md` accumulates STAR+R stories across evaluations. Each story follows:
+Skip scoring entirely and mark `🚫 Declined` if:
+- Salary clearly below ₹6L INR (not even in negotiation range)
+- "Intern", "fresher", "junior", "entry-level" in the title
+- Location requires full-time onsite outside Bangalore/Dubai with no remote
+- Role is unrelated to data/analytics/product/ops/strategy
 
-```markdown
-### {Story Title}
-**Tags:** [governance, technical-debate, stakeholder-management, ...]
-**Best for:** {types of questions this answers}
+## Tone & Voice
 
-**Situation:** ...
-**Task:** ...
-**Action:** ...
-**Result:** ...
-**Reflection:** What I'd do differently / what I learned
-```
-
-Key stories to maintain:
-- **FIP-100 & wjmelements debate** — technical disagreement, staying rigorous under pressure
-- **Avail Fusion whitepaper** — original research, co-authoring with protocol team
-- **Polygon Governance Hub** — building governance infrastructure 0→1
-- **Filecoin NV27 coordination** — cross-team coordination across 5 implementation teams
-- **Mina treasury review** — identifying attack vectors, uncomfortable truths to a client
-- **CoW DAO process** — learning from rejection, self-assessment
-- **Conquista PR termination** — deliverables audit, professional conflict resolution
-- **Validator economics paper** — independent research, academic rigor, Gini coefficient application
-
-## Personalization
-
-This system is designed to be customized by YOU (Claude). When Taani asks you to change archetypes, adjust scoring, add companies, modify the pivot narrative — do it directly. You read the same files you use.
-
-**Key identity notes for tone/voice:**
-- Direct, precise, skeptical of jargon
-- Prefers shorter, sharper outputs
-- Entered blockchain out of financial necessity, not ideology — skeptic-turned-insider
-- Tells clients uncomfortable truths — bring that energy to self-assessment too
-- $300K floor is a constraint, not an aspiration
+Direct and honest. If a role is a weak fit, say so with a clear reason. No sugarcoating. Santosh has 7 years of experience and doesn't need validation — he needs accurate signal.

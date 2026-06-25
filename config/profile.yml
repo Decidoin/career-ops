@@ -1,96 +1,110 @@
-# Career-Ops Profile Configuration
-# Edit this file with your details
+# Career-Ops Profile — Santosh Govardhan
 
-name: "Tanisha Katara"
-preferred_name: "Taani"
-email: "tanisha.bk@gmail.com"
-phone: "" # not exposed
-location: "Dubai, UAE"
-timezone: "Asia/Dubai (GMT+4)"
-linkedin: "https://www.linkedin.com/in/tanishakatara/"
-website: "https://www.tanishakatara.com"
-github: "" # Add if applicable
+name: "Santosh Govardhan"
+preferred_name: "Santosh"
+email: "santogover25@gmail.com"
+phone: "+91 7760282307"
+location: "Bangalore, India"
+timezone: "Asia/Kolkata (IST, GMT+5:30)"
+linkedin: ""   # Add your LinkedIn URL
+github: ""     # Add your GitHub URL
+portfolio: ""  # Add your portfolio URL
 
 # What you're looking for
 targets:
-  roles:
-    - "Head of Mechanism Design"
-    - "Head of AI Governance"
-    - "Principal Researcher — Coordination/Incentives"
-    - "VP Protocol / Governance"
-    - "Founding team — AI agent infrastructure"
-    - "Director of Research"
-  
-  archetypes:
-    primary: ["MechDesign", "AIGov"]
-    secondary: ["ResearchLead", "FoundingRole"]
-    open_to: ["InfraLead", "StratConsult"]
-  
+  role_families:
+    - "Data Analyst / Senior Data Analyst"
+    - "Product Analyst / Senior Product Analyst"
+    - "Business Analyst / Operations Analyst"
+    - "Founder's Office / Chief of Staff"
+    - "Strategy & Insights"
+    - "Associate Product Manager / Product Manager"
+
+  seniority:
+    preferred: ["Associate", "Senior Associate", "Senior", "Lead"]
+    open_to: ["Manager (if IC-heavy)"]
+    exclude: ["Intern", "Fresher", "Junior", "Entry-Level", "Director", "VP"]
+
   industries:
     priority:
-      - "AI agent infrastructure"
-      - "Multi-agent systems / coordination"
-      - "Mechanism design / auction platforms"
-      - "AI safety (applied, not pure alignment)"
-      - "DeFi / crypto protocols with AI ambitions"
+      - "Product-led tech startups"
+      - "Consumer internet (food, fintech, e-commerce, mobility)"
+      - "SaaS / B2B tech"
+      - "Analytics / data consulting"
     open_to:
-      - "Marketplace / platform economics"
-      - "Autonomous systems governance"
-      - "Protocol engineering"
-  
+      - "BFSI (banking, fintech, insurance)"
+      - "Blockchain / Web3 (Dubai context)"
+      - "Healthcare / edtech"
+      - "MNCs with strong analytics teams"
+
   company_stage:
-    preferred: ["Series A", "Series B", "Growth"]
-    open_to: ["Pre-seed (founding role only)", "Public (if right team)"]
+    preferred: ["Series B", "Series C", "Growth", "Mature startup"]
+    open_to: ["Series A (if product-market fit clear)", "Public company (right team)"]
 
 # Compensation
 compensation:
-  floor: 300000  # USD, annual total comp minimum
-  target: 350000
-  stretch: 450000
-  currency: "USD"
-  notes: "Floor is non-negotiable. Equity can bridge gap only if liquid within 2 years."
+  floor: 800000        # INR per annum, non-negotiable
+  target: 1200000      # INR per annum
+  stretch: 1800000     # INR per annum
+  currency: "INR"
+  dubai_floor_aed: 75000   # approximate AED annual equivalent
+  notes: "Floor is non-negotiable. ESOP/equity is a plus, not a substitute."
 
 # Location preferences
 location_preferences:
+  bases: ["Bangalore, India", "Dubai, UAE"]
   remote_first: true
-  base: "Dubai, UAE"
-  willing_to_relocate: ["US (with O-1A visa support)"]
-  travel_tolerance: "Up to 25% — conferences, team offsites"
-  no_go: ["Full-time onsite outside Dubai without relocation package"]
+  willing_to_relocate: ["Dubai (already has experience there)"]
+  travel_tolerance: "Occasional travel is fine"
+  no_go: ["Full-time onsite outside Bangalore/Dubai"]
 
-# Visa / Legal
-visa:
-  current_status: "UAE resident, no US work authorization"
-  pending: "O-1A extraordinary ability petition (filing April 2026)"
-  petitioning_entity: "KCG Consulting LLC (Delaware)"
-  managed_by: "Bay Immigration Law"
-  notes: "US employer as sponsor would strengthen case. Role generating publications/media is a plus."
-
-# Pivot narrative
-pivot:
-  from: "Blockchain governance & cryptoeconomics consulting"
-  to: "AI agent governance, mechanism design for autonomous systems"
-  key_message: >
-    The coordination problems I solved for blockchain protocols — validator incentives,
-    governance attack vectors, multi-stakeholder consensus — are the exact same problems
-    emerging in multi-agent AI systems. I'm not pivoting away from my expertise;
-    the field is pivoting toward me.
-  proof_points:
-    - "Designed validator admission scoring (PIP-39) and nomination algorithms (AIP-4) — direct mechanism design"
-    - "Applied Gini coefficient analysis to stake distribution — the same inequality metrics apply to AI resource allocation"
-    - "Facilitated contentious protocol governance debates (FIP-100, veFIL) — multi-agent coordination in practice"
-    - "Co-authored Avail Fusion whitepaper on unified cryptoeconomic security — multi-asset consensus = multi-agent consensus"
-    - "Research on Coasean Singularity paper connecting AI agents to market design frameworks"
+# Skills inventory (for scoring)
+skills:
+  core:
+    - SQL
+    - Python
+    - Power BI
+    - Tableau
+    - Excel
+  bi_tools:
+    - Amazon QuickSight
+    - Metabase
+    - Superset
+    - Looker  # familiar concept, fast to learn
+  data_engineering:
+    - Snowflake
+    - Airbyte
+    - MySQL
+  ai_ml:
+    - LangChain
+    - RAG
+    - FAISS
+    - Groq API
+  methodologies:
+    - Cohort analysis
+    - Funnel analysis
+    - A/B testing
+    - Churn modelling
+    - CLTV modelling
+    - KPI definition
+    - Dashboard design
 
 # Scoring weights (must sum to 100)
 scoring_weights:
-  pivot_alignment: 20
+  role_fit: 25
+  skill_match: 20
+  seniority_level: 15
   compensation: 15
-  o1a_impact: 12
-  role_seniority: 10
-  team_and_people: 10
-  scope_of_impact: 10
-  research_output: 8
-  company_stage: 5
-  location_remote: 5
-  exit_optionality: 5
+  location_fit: 10
+  industry_fit: 10
+  growth_potential: 5
+
+# Key differentiators (for CV tailoring and outreach)
+differentiators:
+  - "7 years across product analytics, strategy & insights, and data consulting"
+  - "Masters in Data Analytics, Clark University (GPA 3.9)"
+  - "Published researcher — LLM-powered BI paper, Clark Conference 2025"
+  - "Promoted 4× in 5 years at Furlenco"
+  - "Cross-geography experience: Bangalore + Dubai"
+  - "End-to-end ownership: KPI definition → dashboard → insight → decision"
+  - "Full BI stack: Power BI, Tableau, QuickSight, Metabase, Superset"

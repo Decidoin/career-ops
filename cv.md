@@ -1,71 +1,82 @@
-# Tanisha Katara
+# Santosh Govardhan
+
+**Data Analyst — Product & Business Analytics | 7 Years Experience | Masters in Data Analytics, USA**
+
+Bangalore, India | +91 7760282307 | santogover25@gmail.com
+[Portfolio](#) | [LinkedIn](#) | [GitHub](#)
+
+---
 
 ## Summary
 
-Governance architect and mechanism designer with 4+ years designing incentive systems, consensus frameworks, and coordination infrastructure for decentralized protocols. Built governance systems used by Polygon, Filecoin, Avail, Mina Foundation, and others — all through referrals, 100% contract extensions, zero churn. Applying game theory, political economy, and behavioral science frameworks to coordination problems. Currently pivoting toward mechanism design for AI agent systems, where the same multi-stakeholder coordination challenges are emerging at scale.
+Data analyst with 7 years across product analytics, strategy & insights, and data consulting. Built dashboards, retention models, and experimentation frameworks that moved metrics at consumer internet, SaaS, and blockchain companies. Masters in Data Analytics from Clark University (GPA 3.9). Published researcher on LLM-powered BI. Strong across SQL, Python, and the full BI stack — Power BI, Tableau, Metabase, QuickSight.
+
+---
 
 ## Professional Experience
 
-### Founder & CEO — KCG Consulting LLC
-*Dubai, UAE | 2022 – Present*
+### Product Analyst — CycleBae, Bangalore *(Contract)*
+*Feb 2026 – Present*
 
-Blockchain governance and cryptoeconomics consultancy. All clients acquired through referrals.
+- Owned end-to-end product analytics for user onboarding, retention, and engagement — defined KPIs, built measurement frameworks, partnered with Product on experiment prioritization
+- Built dashboards in Power BI and Metabase to monitor onboarding funnels, retention cohorts, feature adoption, and user behavior, cutting time-to-insight for product decisions
+- Ran cohort and user activity analysis to identify behaviors driving D1 retention, directly informing experimentation roadmap
 
-**Polygon (2022–2023)**
-- Built and launched the Polygon Governance Hub — the protocol's governance infrastructure from zero
-- Designed PIP-39 (validator admission scoring) and PIP-50 (variable tokenholder signaling mechanism)
-- Created the governance framework used by a network securing $5B+ in value
+### Consultant, Data Insights — Moonshots Studio, Dubai *(Blockchain Consultancy)*
+*Jun 2022 – Apr 2023*
 
-**Filecoin Foundation (2023–2025)**
-- Co-facilitated FIP-100 monitoring committee — ongoing governance for a live protocol change
-- Coordinated NV27 "Golden Week" network upgrade across 5 implementation teams
-- Designed veFIL Phase I governance mechanics with GLIF
-- Engaged in live technical debate with protocol researcher on gas lane mechanism design (FIP #1233)
-- Prepared facilitation materials for contentious Core Devs discussions on mining reserve and veFIL
+- Built and maintained an analytics-ready database covering 50+ DeFi protocols, enabling data-driven client targeting and improving outreach effectiveness by 10%
+- Partnered with product and business stakeholders to define product metrics, evaluate feature adoption, and deliver insights that shaped roadmap and strategic decisions
+- Designed Power BI dashboards and performance scoring models to evaluate validator participation and network distribution, enabling stakeholder self-service
 
-**Avail (2023–2025)**
-- Co-designed validator nomination scoring algorithm (AIP-4)
-- Co-authored Avail Fusion whitepaper on unified cryptoeconomic security and multi-asset consensus (with Wenxuan Deng and Prabal Banerjee)
-- Conducted market research for Avail Nexus (intent-solver cross-chain payment infrastructure)
-- Developed Nightshade/Shield TX privacy perps product research — 10 trader interviews, JTBD framework, fee model design
+### Senior Associate — Strategy & Insights, Furlenco *(Consumer Services)*
+*Apr 2017 – Apr 2022 | Promoted 4× in 5 years: Junior Executive → Senior Associate*
 
-**Mina Foundation (2023–2024)**
-- Conducted comprehensive treasury governance review including attack vector mapping
-- Delivered phased decentralization recommendations
+- Built BI dashboards and analytical reports using SQL and BI tools to track customer acquisition, retention, operational performance, and revenue trends
+- Developed churn and CLTV models to segment users and inform targeted retention strategies, improving engagement by 15%
+- Cut refurbishment costs and improved margins 10% through a rental-to-buyback pilot; enabled the resale category from scratch
+- Redesigned the loyalty program by tracking customer engagement, retention, and lifetime value — analysis fed directly into product decisions
+- Defined product and business KPIs and built scalable Power BI and Amazon QuickSight dashboards, enabling self-service analytics across teams
 
-**Liberdus (2024)**
-- Designed veto-based adaptive quorum governance system
+### Executive — Operations, Urban Piper *(SaaS)*
+*Nov 2016 – Mar 2017*
 
-**Aragon (2023)**
-- Governance consulting engagement
+- Cut CRM go-live time by 70% by streamlining onboarding for 5+ QSR/F&B clients
+- Managed accounts for a major conglomerate, generating $10K in online sales post-website launch
 
-### Additional Consulting & Research
+### Trainee Decision Scientist — Mu-Sigma *(Decision Analytics)*
+*Jun 2016 – Aug 2016*
 
-- Pursued $400K ProPGF proposal for veFIL frontend development (12-week scope)
-- Engaged with Protocol Labs leadership on founders' office consulting model
+- Built a tracking dashboard for the team to report and resolve issues, improving resolution time by 30%
 
-## Research & Publications
+---
 
-- **"Validator Economics: Stake Distribution Inequality Across PoS Networks"** — Applied Gini coefficient and quintile transition matrix analysis across Cronos, Polygon, Celestia, Dymension. Published at tanisha-katara.github.io/validator-paper-academic/
-- **Avail Fusion Whitepaper** — Unified cryptoeconomic security and multi-asset consensus. Accepted to TERSE 2026.
-- **Coasean Singularity engagement** — Active research connecting NBER AI agent/market design frameworks to governance architecture
+## Projects & Publications
 
-## Speaking
+**LLM-Powered Business Intelligence** — Clark Multidisciplinary Conference 2025, USA
+- Converts natural language business queries to SQL using Python, RAG, LangChain, and Groq's LLaMA 3.3
+- Integrates schema retrieval (FAISS), query validation, and self-healing for accurate dynamic SQL generation
 
-- **EthCC 2025** — Validator economics research
-- **Devcon 2024** — Validator economics research
-- **Blockchain Life Dubai** — Speaker
-- **Filecoin Dev Summit** — Speaker
+---
+
+## Skills
+
+**Programming:** Python
+**BI & Visualization:** Power BI, Tableau, Amazon QuickSight, Metabase, Superset, Excel
+**Data Engineering:** SQL, Snowflake, Airbyte, MySQL
+**AI / ML:** LangChain, RAG, FAISS, Groq API
+
+---
 
 ## Education
 
-- **Young India Fellowship** — Ashoka University
-- **President's Gold Medal** — Academic distinction
+**Masters in Data Analytics** — Clark University, Massachusetts, USA
+*Jan 2024 – May 2025 | GPA 3.9/4.0 | Scholarship Recipient*
 
-## Skills & Frameworks
+**Bachelor of Engineering** — Bangalore Institute of Technology, India
 
-**Mechanism Design:** Scoring algorithms, quadratic signaling, adaptive quorum, veto systems, validator nomination, fee model architecture
-**Governance:** Protocol governance design, treasury management, attack vector analysis, phased decentralization
-**Research Methods:** Gini coefficient analysis, quintile transition matrices, JTBD frameworks, stakeholder mapping
-**Coordination:** Cross-team facilitation (5+ implementation teams), contentious debate moderation, multi-stakeholder consensus
-**Domains:** PoS networks, DeFi governance, cryptoeconomic security, AI agent coordination (emerging)
+---
+
+## Certifications
+
+Azure Fundamentals · Imarticus Data Science Pro · Gen AI with AWS · Six Sigma

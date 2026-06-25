@@ -1,170 +1,299 @@
-# Portal Scanner Configuration
+# Portal Scanner Configuration — Santosh Govardhan
 # Companies and search queries for /career-ops scan
 
 # Target role keywords
 title_filter:
   positive:
-    - "mechanism design"
-    - "governance"
-    - "incentive"
-    - "protocol"
-    - "research"
-    - "economist"
-    - "coordination"
-    - "agent"
-    - "head of"
-    - "director"
-    - "principal"
-    - "founding"
-    - "VP"
+    - "data analyst"
+    - "product analyst"
+    - "business analyst"
+    - "operations analyst"
+    - "strategy analyst"
+    - "analytics"
+    - "insights"
+    - "associate product manager"
+    - "APM"
+    - "founder's office"
+    - "chief of staff"
+    - "strategy"
+    - "BI analyst"
+    - "growth analyst"
   negative:
     - "intern"
+    - "fresher"
     - "junior"
-    - "associate"
-    - "analyst"
-    - "support"
-    - "marketing"
-    - "sales"
+    - "entry level"
+    - "0-1 years"
+    - "0-2 years"
+    - "marketing analyst"
+    - "financial analyst"
+    - "HR analyst"
     - "recruiter"
 
-# Companies to scan
-companies:
-  # AI Agent Infrastructure
-  - name: "Anthropic"
-    careers_url: "https://www.anthropic.com/careers"
-    ats: "ashby"
+# --- BANGALORE TARGET COMPANIES ---
+
+companies_bangalore:
+
+  # Consumer Internet — High priority
+  - name: "Swiggy"
+    careers_url: "https://careers.swiggy.com"
     priority: high
-  - name: "OpenAI"
-    careers_url: "https://openai.com/careers"
+    notes: "Strong product analytics and data science teams"
+
+  - name: "Zomato"
+    careers_url: "https://www.zomato.com/careers"
     priority: high
-  - name: "DeepMind"
-    careers_url: "https://deepmind.google/about/careers/"
+
+  - name: "PhonePe"
+    careers_url: "https://www.phonepe.com/en/careers.html"
     priority: high
-  - name: "Cohere"
-    careers_url: "https://cohere.com/careers"
-    priority: medium
-  - name: "Mistral"
-    careers_url: "https://mistral.ai/careers"
+    notes: "Fintech, large data team, Bangalore HQ"
+
+  - name: "CRED"
+    careers_url: "https://careers.cred.club"
+    priority: high
+    notes: "Product analytics heavy, strong data culture"
+
+  - name: "Razorpay"
+    careers_url: "https://razorpay.com/jobs"
+    priority: high
+    notes: "Fintech, Bangalore, known for analytics roles"
+
+  - name: "Groww"
+    careers_url: "https://groww.in/about/careers"
+    priority: high
+    notes: "Fintech/investing, fast-growing analytics team"
+
+  - name: "Meesho"
+    careers_url: "https://meesho.io/careers"
+    priority: high
+
+  - name: "Nykaa"
+    careers_url: "https://www.nykaa.com/sp/careers/careers"
     priority: medium
 
-  # Multi-Agent / Coordination
-  - name: "Olas (Autonolas)"
-    careers_url: "https://olas.network"
+  - name: "Zepto"
+    careers_url: "https://www.zeptonow.com/careers"
     priority: high
-    notes: "Autonomous agent services, directly in the AI agent governance space"
-  - name: "Fetch.ai"
-    careers_url: "https://fetch.ai/careers"
-    priority: high
-    notes: "AI agent economy"
-  - name: "SingularityNET"
-    careers_url: "https://singularitynet.io/careers"
-    priority: medium
-  - name: "NEAR Protocol"
-    careers_url: "https://careers.near.org"
-    priority: medium
-    notes: "AI + blockchain convergence, chain abstraction"
+    notes: "Fast growing, data-driven quick commerce"
 
-  # Mechanism Design / Marketplace
-  - name: "Flashbots"
-    careers_url: "https://www.flashbots.net/careers"
-    ats: "ashby"
-    priority: high
-    notes: "MEV, mechanism design, auction theory — strong fit"
-  - name: "a]16z crypto"
-    careers_url: "https://a16zcrypto.com/careers"
+  - name: "Urban Company"
+    careers_url: "https://www.urbancompany.com/careers"
     priority: medium
-    notes: "Research roles in mechanism design"
-  - name: "Paradigm"
-    careers_url: "https://www.paradigm.xyz/opportunities"
-    priority: medium
-  - name: "Uniswap Labs"
-    careers_url: "https://boards.greenhouse.io/uniswaplabs"
-    ats: "greenhouse"
-    priority: medium
-    notes: "Protocol design, mechanism research"
 
-  # AI Safety / Governance (Applied)
-  - name: "Center for AI Safety"
-    careers_url: "https://www.safe.ai/careers"
+  - name: "Dunzo"
+    careers_url: "https://www.dunzo.com/careers"
     priority: medium
-  - name: "Alignment Research Center (ARC)"
-    careers_url: "https://www.alignment.org"
+
+  - name: "MakeMyTrip"
+    careers_url: "https://careers.makemytrip.com"
     priority: medium
-  - name: "Institute for Advanced Study"
-    careers_url: "https://www.ias.edu"
+
+  - name: "OYO"
+    careers_url: "https://www.oyorooms.com/careers"
+    priority: medium
+
+  # SaaS / B2B Tech — High priority
+  - name: "Freshworks"
+    careers_url: "https://www.freshworks.com/company/careers"
+    priority: high
+    notes: "Strong analytics culture, SaaS, Bangalore"
+
+  - name: "Zoho"
+    careers_url: "https://www.zoho.com/careers"
+    priority: medium
+
+  - name: "Browserstack"
+    careers_url: "https://www.browserstack.com/careers"
+    priority: medium
+
+  - name: "Chargebee"
+    careers_url: "https://www.chargebee.com/careers"
+    priority: medium
+    notes: "SaaS subscription analytics"
+
+  - name: "Postman"
+    careers_url: "https://www.postman.com/company/careers"
+    priority: medium
+
+  - name: "Clevertap"
+    careers_url: "https://clevertap.com/careers"
+    priority: medium
+    notes: "Product analytics platform — strong internal analytics culture"
+
+  - name: "MoEngage"
+    careers_url: "https://www.moengage.com/careers"
+    priority: medium
+
+  - name: "Amplitude"
+    careers_url: "https://amplitude.com/careers"
+    priority: medium
+    notes: "Product analytics — highly relevant to Santosh's work"
+
+  # Edtech
+  - name: "Unacademy"
+    careers_url: "https://unacademy.com/careers"
     priority: low
-    notes: "Research fellowships"
 
-  # Protocol / Governance Teams
-  - name: "Ethereum Foundation"
-    careers_url: "https://ethereum.org/en/about/#open-jobs"
-    priority: medium
-  - name: "Optimism (OP Labs)"
-    careers_url: "https://boards.greenhouse.io/oplabs"
-    ats: "greenhouse"
-    priority: medium
-    notes: "Governance design, RetroPGF mechanism"
-  - name: "Arbitrum (Offchain Labs)"
-    careers_url: "https://www.offchainlabs.com/careers"
-    priority: medium
-  - name: "Celestia"
-    careers_url: "https://celestia.org/careers"
-    priority: low
-  - name: "EigenLayer (Eigen Labs)"
-    careers_url: "https://www.eigenlayer.xyz/careers"
-    priority: medium
-    notes: "Restaking economics, protocol design"
-
-  # AI Companies with Governance Needs
-  - name: "Hugging Face"
-    careers_url: "https://huggingface.co/jobs"
-    priority: medium
-    notes: "Open-source AI governance, community coordination"
-  - name: "Stability AI"
-    careers_url: "https://stability.ai/careers"
-    priority: low
-  - name: "Runway"
-    careers_url: "https://runwayml.com/careers"
+  - name: "upGrad"
+    careers_url: "https://www.upgrad.com/careers"
     priority: low
 
-  # Consulting / Research Firms
-  - name: "Gauntlet"
-    careers_url: "https://www.gauntlet.xyz/careers"
+  # Mobility / Logistics
+  - name: "Ola"
+    careers_url: "https://www.olacabs.com/careers"
+    priority: medium
+
+  - name: "Rapido"
+    careers_url: "https://rapido.bike/careers"
+    priority: medium
+
+  - name: "Porter"
+    careers_url: "https://porter.in/careers"
+    priority: medium
+
+  # Consulting / Analytics
+  - name: "Mu Sigma"
+    careers_url: "https://www.mu-sigma.com/careers"
+    priority: low
+    notes: "Santosh's first employer — familiar culture"
+
+  - name: "ThoughtWorks"
+    careers_url: "https://www.thoughtworks.com/careers"
+    priority: medium
+
+  - name: "Fractal Analytics"
+    careers_url: "https://fractal.ai/careers"
     priority: high
-    notes: "Protocol economics, risk, simulation — very strong fit"
-  - name: "Delphi Digital"
-    careers_url: "https://delphidigital.io/careers"
+    notes: "Pure analytics firm, strong culture"
+
+  - name: "Tiger Analytics"
+    careers_url: "https://www.tigeranalytics.com/careers"
     priority: medium
-  - name: "Block Science"
-    careers_url: "https://block.science"
+
+# --- DUBAI TARGET COMPANIES ---
+
+companies_dubai:
+
+  # Consumer Internet / Marketplace
+  - name: "Noon"
+    careers_url: "https://www.noon.com/uae-en/careers"
     priority: high
-    notes: "cadCAD, complex systems, mechanism design consulting"
+    notes: "Large e-commerce, strong data team, Dubai HQ"
 
-# Search queries for job boards
-search_queries:
-  - "mechanism design AI agent"
-  - "head of governance protocol"
-  - "AI agent coordination researcher"
-  - "incentive design economist"
-  - "multi-agent systems governance"
-  - "protocol economist"
-  - "head of research mechanism design"
-  - "AI governance policy lead"
-  - "founding team AI infrastructure"
-  - "director research cryptoeconomics"
-  - "principal researcher game theory"
+  - name: "Careem"
+    careers_url: "https://www.careem.com/en-ae/careers"
+    priority: high
+    notes: "Super app, Uber-owned, strong analytics culture"
 
-# Job board URLs to search
+  - name: "Talabat"
+    careers_url: "https://www.talabat.com/uae/careers"
+    priority: high
+    notes: "Food delivery, Delivery Hero subsidiary"
+
+  - name: "Property Finder"
+    careers_url: "https://propertyfinder.ae/en/careers"
+    priority: medium
+    notes: "Proptech, growing analytics team"
+
+  - name: "Dubizzle"
+    careers_url: "https://dubizzle.com/careers"
+    priority: medium
+
+  - name: "Yalla Group"
+    careers_url: "https://yallagroup.com/careers"
+    priority: medium
+    notes: "Social entertainment platform, Dubai"
+
+  - name: "Kitopi"
+    careers_url: "https://kitopi.com/careers"
+    priority: medium
+    notes: "Cloud kitchen, operations analytics"
+
+  - name: "Fetchr"
+    careers_url: "https://fetchr.us/careers"
+    priority: low
+
+  - name: "Majid Al Futtaim"
+    careers_url: "https://www.majidalfuttaim.com/en/careers"
+    priority: medium
+    notes: "Retail conglomerate, growing data function"
+
+  - name: "Aramex"
+    careers_url: "https://www.aramex.com/ae/en/about/careers"
+    priority: low
+
+  # Fintech Dubai
+  - name: "Tabby"
+    careers_url: "https://tabby.ai/careers"
+    priority: high
+    notes: "Buy-now-pay-later, strong analytics, Dubai"
+
+  - name: "Tamara"
+    careers_url: "https://tamara.co/careers"
+    priority: high
+    notes: "BNPL, Saudi/Dubai, growing fast"
+
+  - name: "Baraka"
+    careers_url: "https://baraka.com/en/careers"
+    priority: medium
+    notes: "Investing app, Dubai"
+
+# --- JOB BOARDS ---
+
 job_boards:
-  - name: "Ashby"
-    base_url: "https://jobs.ashbyhq.com"
-  - name: "Greenhouse"
-    base_url: "https://boards.greenhouse.io"
-  - name: "Lever"
-    base_url: "https://jobs.lever.co"
-  - name: "Wellfound"
-    base_url: "https://wellfound.com/jobs"
-  - name: "Crypto Jobs List"
-    base_url: "https://cryptojobslist.com"
-  - name: "Web3 Career"
-    base_url: "https://web3.career"
+  india:
+    - name: "LinkedIn India"
+      base_url: "https://www.linkedin.com/jobs"
+      search_hint: "Use location filter: Bangalore/Bengaluru"
+    - name: "Naukri"
+      base_url: "https://www.naukri.com"
+    - name: "Foundit (ex-Monster)"
+      base_url: "https://www.foundit.in"
+    - name: "Indeed India"
+      base_url: "https://in.indeed.com"
+    - name: "Glassdoor India"
+      base_url: "https://www.glassdoor.co.in/Job"
+    - name: "Instahyre"
+      base_url: "https://www.instahyre.com"
+      notes: "Startup-focused, good for product analytics roles"
+    - name: "Wellfound (AngelList)"
+      base_url: "https://wellfound.com/jobs"
+      notes: "Startup jobs, equity-heavy roles"
+
+  dubai:
+    - name: "Bayt"
+      base_url: "https://www.bayt.com"
+      notes: "Largest job board in MENA"
+    - name: "GulfTalent"
+      base_url: "https://www.gulftalent.com"
+    - name: "LinkedIn UAE"
+      base_url: "https://www.linkedin.com/jobs"
+      search_hint: "Use location filter: Dubai, United Arab Emirates"
+    - name: "Indeed UAE"
+      base_url: "https://ae.indeed.com"
+
+# --- SEARCH QUERIES ---
+
+search_queries:
+  india:
+    - "data analyst Bangalore"
+    - "product analyst Bangalore"
+    - "business analyst Bangalore"
+    - "senior data analyst Bangalore"
+    - "strategy analyst Bangalore"
+    - "growth analyst Bangalore"
+    - "associate product manager Bangalore"
+    - "founder's office Bangalore"
+    - "chief of staff Bangalore startup"
+    - "analytics Bangalore SQL Power BI"
+
+  dubai:
+    - "data analyst Dubai"
+    - "product analyst Dubai"
+    - "business analyst Dubai"
+    - "senior data analyst UAE"
+    - "analytics Dubai"
+    - "associate product manager Dubai"
+    - "strategy analyst Dubai"
+    - "founder's office Dubai startup"
