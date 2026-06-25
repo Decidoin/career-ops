@@ -2,7 +2,7 @@
 
 AI-powered job search and opportunity pipeline built on [Claude Code](https://docs.anthropic.com/en/docs/claude-code).
 
-Forked from [santifer/career-ops](https://github.com/santifer/career-ops) and adapted for a governance architect and mechanism designer pivoting from blockchain protocols to AI agent governance.
+Forked from [Tanisha-Katara/career-ops](https://github.com/Tanisha-Katara/career-ops) and adapted for Santosh Govardhan — Data Analyst (Product & Business Analytics) with 7 years of experience, targeting data analytics, product analytics, operations, and business analyst roles in Bangalore and Dubai.
 
 ## Quick Start
 
@@ -42,9 +42,9 @@ claude
 
 ## Scoring
 
-10 weighted dimensions, A-F grading. Auto-disqualifies roles below $200K, analyst-level, or execution-only.
+7 weighted dimensions, A–F grading. Auto-disqualifies roles below ₹6L INR, intern/fresher level, or outside Bangalore/Dubai with no remote option.
 
-Top-weighted dimensions: Pivot Alignment (20%), Compensation (15%), O-1A Impact (12%).
+Top-weighted dimensions: Role Fit (25%), Skill Match (20%), Seniority Level (15%), Compensation (15%).
 
 ## Structure
 

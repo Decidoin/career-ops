@@ -110,6 +110,9 @@ When framing Santosh's background for a specific role, use the right angle:
 **For Founder's Office / Chief of Staff roles:**
 "I've worked as a strategic partner to senior stakeholders my entire career — translating data into decisions, not just charts. At Furlenco I owned everything from KPI frameworks to the loyalty program redesign. At Moonshots I was client-facing on strategy and analytics simultaneously. I thrive in high-ownership, low-structure environments."
 
+**For Strategy & Insights roles:**
+"Seven years of turning data into strategy — from defining KPIs and building BI infrastructure at Furlenco to delivering insights that shaped roadmap decisions at Moonshots Studio. I sit at the intersection of analytics and business decision-making, and I'm comfortable presenting to senior stakeholders who need clear, actionable answers, not raw data."
+
 **For APM / PM roles:**
 "I've been the analytical backbone for product teams — defining what to measure, building the dashboards to track it, and identifying the behaviors that drive retention. I understand the data side of product decisions deeply, and I'm looking to take ownership of the roadmap decisions themselves."
 
