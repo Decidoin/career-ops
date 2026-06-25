@@ -13,14 +13,14 @@ Triggered by: `/career-ops deep`
 **Product:** Core product, tech stack, competitive position
 **Team:** Key leadership, research team, recent hires (who are they hiring?)
 **Culture signals:** Glassdoor, blind, public statements, open-source activity
-**AI agent angle:** Are they building/using/governing AI agents? How?
-**Governance angle:** Do they have governance needs? Protocol decisions? Multi-stakeholder coordination?
+**Data & Analytics maturity:** How mature is their data function? Self-serve BI, experimentation culture, data team size?
+**Product analytics angle:** Are they investing in product analytics, growth, or retention work? Any signals from job postings?
 **Funding & Runway:** Latest round, investors, burn signals
 **News:** Recent press, launches, controversies
-**Connections:** Does Taani know anyone there? (Check story bank, tracker, cv.md for overlaps)
+**Connections:** Does Santosh know anyone there? (Check story bank, tracker, cv.md for overlaps)
 
 ### Fit Assessment
-- Why this company makes sense for the pivot
+- Why this company makes sense for Santosh's target role families
 - What the entry angle would be
 - Which team/role to target
 - Who to reach out to first

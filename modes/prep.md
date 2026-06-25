@@ -12,34 +12,36 @@ Triggered by: `/career-ops prep`
 ## Output
 
 ### Likely Questions & Story Mapping
-Map each likely interview question to the best story from the bank:
-- "Why this role?" → Pivot narrative from evaluation
-- "Tell me about a technical disagreement" → FIP-100 debate
-- "Building from scratch" → Polygon Governance Hub
-- etc.
+Map 3–5 likely interview questions to the best matching stories from `interview-prep/story-bank.md`:
+- "Tell me about a time you influenced a product decision with data" → D1 Retention Analysis (CycleBae)
+- "Describe a project where you drove business impact" → Rental-to-Buyback Pilot (Furlenco)
+- "Have you built predictive models?" → Churn & CLTV Modelling (Furlenco)
+- "Tell me about building something from scratch" → Self-Service Analytics at Scale (Furlenco)
+- "Why this role?" → Use the relevant narrative template from `modes/_shared.md` for the role archetype
+- Map additional questions to remaining stories in the bank as relevant to the specific JD
 
 ### Technical Depth Areas
-Based on the JD, identify topics to brush up on:
-- Specific papers to re-read
-- Frameworks to be fluent in
-- Domain knowledge gaps to fill
+Based on the JD, identify:
+- SQL or Python topics to brush up on (window functions, cohort analysis patterns, etc.)
+- Specific BI tools mentioned in the JD that Santosh should review (Power BI, Tableau, QuickSight, Looker, etc.)
+- Domain knowledge gaps — e.g. if the JD mentions experimentation frameworks, A/B testing statistics, or specific industry metrics
 
 ### Questions to Ask Them
-5-7 questions that simultaneously:
-- Show you've done your homework
-- Evaluate whether the role actually meets YOUR criteria
+Generate 3 questions that simultaneously:
+- Show you've done your homework on the company and role
+- Evaluate whether the role actually meets Santosh's criteria (scope, comp, growth)
 - Signal seniority and strategic thinking
 
 Examples:
-- "How does the team think about [specific mechanism] — is the design locked or still being shaped?"
-- "What's the publishing culture like? Am I expected to contribute to external research?"
+- "How does the analytics team decide what to measure — is there a structured experimentation culture or is it more ad-hoc?"
+- "What does the data stack look like, and where are the biggest gaps you're hoping this hire will address?"
 - "Who would I report to, and what does success look like at 6 months?"
-- "How does this role relate to [company's AI agent strategy]?"
+- "What's the career path for an analyst at this level in this team?"
 
 ### Red Flags to Watch For
 Signals during the interview that should lower your score:
 - Vague answers about comp or level
-- "We don't really publish externally"
-- "This role is mostly execution"
-- No clear answer on visa sponsorship
-- Team seems siloed, no cross-functional influence
+- "This role is mostly execution" or "you'd mostly pull reports"
+- No clear ownership — analytics team is siloed from product decisions
+- Team seems to lack cross-functional influence
+- No clarity on growth path or promotion criteria
