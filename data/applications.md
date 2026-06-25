@@ -2,7 +2,7 @@
 
 | Date | Company | Role | Location | Score | Status | Notes |
 |------|---------|------|----------|-------|--------|-------|
-| — | — | — | — | — | — | Add entries via `/career-ops tracker` |
+| 2026-06-25 | LoadShare Networks | Senior Product Analyst | Bangalore | A (88/100) | 🎯 Target | Report: 001-loadshare-networks-2026-06-25.md · CV: output/loadshare-networks-cv-2026-06-25.md |
 
 ## Status Legend
 

@@ -2,7 +2,6 @@ node_modules/
 output/*.pdf
 output/*.html
 !output/.gitkeep
-reports/*.md
 !reports/.gitkeep
 data/*.pdf
 *.DS_Store
